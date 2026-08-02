@@ -1,7 +1,27 @@
 aid: zenflow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zenflow.png
 name: Zenflow
-description: Zenflow is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zenflow is a San Francisco-based medical device company founded in 2014 (Y
+  Combinator W15) that develops the Zenflow Spring, a small permanent implant
+  delivered in a minimally invasive in-office procedure to relieve urinary
+  obstruction caused by benign prostatic hyperplasia (BPH). The company
+  positions the Spring as a long-lasting alternative to daily BPH medications
+  and to more invasive surgical procedures, avoiding their side effects and
+  recovery burden. Zenflow is a medical-device / hardware company and does not
+  publish a public API, developer platform, SDKs, MCP server, or webhooks; this
+  record is maintained in the API Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/zenflow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,33 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://www.zenflow.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- MedTech
+- Urology
+- Implant
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://www.zenflow.com/
+- type: PrivacyPolicy
+  url: https://www.zenflow.com/privacy
+- type: TermsOfService
+  url: https://www.zenflow.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
