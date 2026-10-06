@@ -43,7 +43,7 @@ x-tier-reason: portfolio-lead
 x-website: https://www.zenflow.com/
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Medical Devices
@@ -54,6 +54,8 @@ tags:
 - Y Combinator
 apis: []
 common:
+- url: https://www.zenflow.com/news
+  type: Blog
 - type: Website
   url: https://www.zenflow.com/
 - type: PrivacyPolicy
